@@ -68,6 +68,7 @@ def main():
         elif choice == '2':
             description = input("Enter task description: ")
             todo_list.add_task(description)
+            todo_list.display_tasks()
         elif choice == '3':
             todo_list.display_tasks()
             task_index = int(input("Enter task index to mark as completed: "))
